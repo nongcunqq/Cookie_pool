@@ -1,3 +1,7 @@
+#  知乎cookie
+修改知乎账号添加， 增加知乎login，ZhihuCookiesGenerator，ZhihuValidTester，增加知乎的test_url
+
+
 # 已知问题
 产生器模块存在一个错误，报attribute error，加一个except不会报错，感觉问题并没有解决
 
