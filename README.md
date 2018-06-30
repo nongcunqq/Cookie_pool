@@ -3,7 +3,10 @@
 
 
 # 已知问题
-产生器模块存在一个错误，报attribute error，加一个except不会报错，感觉问题并没有解决
+产生器模块存在一个错误，报AttributeError: 'WeiboCookiesGenerator' object has no attribute 'browser'  
+加一个except不会报错，感觉问题并没有解决  
+chrome chromedriver对应  https://blog.csdn.net/yoyocat915/article/details/80580066
+
 
 # CookiesPool
 可扩展的Cookies池，目前对接了新浪微博，[m.weibo.cn](https://m.weibo.cn)，可自行扩展其他站点
